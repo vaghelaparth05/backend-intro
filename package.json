@@ -1,0 +1,23 @@
+{
+  "name": "backend-intro",
+  "version": "1.0.0",
+  "description": "Using this repo to learn simple express and get to know backend.",
+  "main": "expressServer.js",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaghelaparth05/backend-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaghelaparth05/backend-intro/issues"
+  },
+  "homepage": "https://github.com/vaghelaparth05/backend-intro#readme"
+}

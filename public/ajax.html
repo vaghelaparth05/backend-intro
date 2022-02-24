@@ -1,0 +1,19 @@
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+<script>
+  const ourRequest = $.ajax({
+    method: "POST",
+    url: "http://localhost:3000/ajax",
+    dataType: "json",
+    data: {
+      name: "Parth",
+      age: "22",
+      phoneNo: "8160052926",
+    },
+  });
+
+  ourRequest.then((response, statusCode, xmlhtpo) => {
+    console.log(response);
+    console.log(xmlhtpo);
+  });
+</script>

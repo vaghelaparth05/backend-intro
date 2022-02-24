@@ -1,8 +1,15 @@
 const express = require("express");
 const app = express();
+const path = require("path");
+
+app.use(express.static("public"));
+
+app.all("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "/dummy.html"));
+});
 
 app.all("*", (req, res) => {
-  res.send(`<h1>Hello this is express server's homepage<h1>`);
+  res.send(`<h1>Sorry! this page doesn't Exists.<h1>`);
 });
 
 app.listen(3000);

@@ -4,7 +4,9 @@
   "description": "Using this repo to learn simple express and get to know backend.",
   "main": "expressServer.js",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "helmet": "^5.0.2"
   },
   "devDependencies": {},
   "scripts": {
